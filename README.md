@@ -7,7 +7,7 @@ Minimum False Negative:  So that we should not miss any patient with a diabetic.
 
 **Data source:** 
 
-[Pima Indians Diabetes](https://archive.ics.uci.edu/ml/datasets/Pima+Indians+Diabetes)
+[Pima Indians Diabetes](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
 
 **Attribute Information:**
 
