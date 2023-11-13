@@ -69,9 +69,23 @@ st.markdown(
     "This app predicts whether a person has diabetes or not based on user's input features."
 )
 
+st.markdown(
+
+    "
+Objective:
+
+This project aims to develop a predictive model for determining whether an individual is diabetic or not, utilizing the Pima-Indians diabetes dataset from the UCI repository. Given the binary nature of our target outcome (Yes or No), we will employ supervised classification algorithms. Our goal, informed by existing research and studies (as cited in https://www.ijedr.org/papers/IJEDR1703069.pdf), is to achieve a model classification accuracy of 75% or higher, with a specific emphasis on minimizing false negatives (high recall) in the model.
+
+The focus on minimizing false negatives is crucial to ensure that no individuals with diabetes are overlooked. While some tolerance for false positives is acceptable (instances where non-diabetic individuals are misclassified), the priority is to avoid missing any patients with diabetes. In the event of misclassifying a non-diabetic person as diabetic, they would undergo further testing, ultimately confirming their non-diabetic status."
+)
+
 # Sidebar with user input features
 st.sidebar.header("User Input Features")
 st.sidebar.markdown("Enter the following patient information:")
+
+classifiers_selected = st.sidebar.multiselect(
+    "Select Two Classifiers", list(classifiers_dict.keys(), value="Logistic Classifier" )
+)
 
 pregnancies = st.sidebar.number_input(
     "Pregnancies (Range: 0 - 20)", min_value=0, max_value=20, value=0, step=1
@@ -106,9 +120,7 @@ age = st.sidebar.number_input(
     "Age (Range: 21 - 110 years)", min_value=21, max_value=110, value=30, step=1
 )
 
-classifiers_selected = st.sidebar.multiselect(
-    "Select Two Classifiers", list(classifiers_dict.keys())
-)
+
 
 if st.button("Train and Submit"):
     st.write("### Classification Results and ROC Curve")
