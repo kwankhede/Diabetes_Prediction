@@ -91,7 +91,7 @@ st.sidebar.header("User Input Features")
 st.sidebar.markdown("Enter the following patient information:")
 
 classifiers_selected = st.sidebar.multiselect(
-    "Select Two Classifiers", list(classifiers_dict.keys(), value="Logistic Classifier" )
+    "Select Two Classifiers", list(classifiers_dict.keys()), default=["Logistic Classifier"]
 )
 
 pregnancies = st.sidebar.number_input(
