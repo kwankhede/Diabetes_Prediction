@@ -1,4 +1,8 @@
-## 0. Objective:
+[Uploading Screenshot 2023-11-23 at 12.44.25 PM.png…]()
+
+
+## 0. Objective:!
+
 
 In this project we are going to develop a model to predict if a person is diabetic or not, based on attributes of Pima-Indians diabetes data from UCI repository. Since, our target is a binary decision (Yes or No), we are going to use supervised classification algorithms.
 Based on online studies and papers, we are targeting to achieve 75+ % or above model classification accuracy (https://www.ijedr.org/papers/IJEDR1703069.pdf)  with minimum false negative (High Recall) of the model. 
