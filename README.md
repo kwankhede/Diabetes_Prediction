@@ -42,6 +42,9 @@ Minimum False Negative:  So that we should not miss any patient with a diabetic.
 
 
 
+**App**
+![3](https://github.com/kwankhede/Diabetes_Prediction/blob/app/app.png)
+
 **Conclusion**
 
 In this study, we investigate various classification algorithms to get best prediction accuracy with minimum false negative instances of diabetes. We explored various data-preprocessing techniques to find the best results. 
