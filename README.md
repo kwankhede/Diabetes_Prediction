@@ -10,6 +10,9 @@ Based on online studies and papers, we are targeting to achieve 75+ % or above m
 
 Minimum False Negative:  So that we should not miss any patient with a diabetic. For this classification we can tolerate some false positive(Patients misclassified as diabetic). If we mis-classify a non-diabetic person as a diabetic then he/she will go for further testing where they will get to know that they are non-diabetic.
 
+**App**
+![3](https://github.com/kwankhede/Diabetes_Prediction/blob/app/app.png)
+
 **Data source:** 
 
 [Pima Indians Diabetes](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
@@ -42,8 +45,7 @@ Minimum False Negative:  So that we should not miss any patient with a diabetic.
 
 
 
-**App**
-![3](https://github.com/kwankhede/Diabetes_Prediction/blob/app/app.png)
+
 
 **Conclusion**
 
