@@ -5,8 +5,6 @@ seaborn
 scikit-learn
 numpy
 xgboost
-plotly==5.3.1
 
-
- 
+plotly
 
