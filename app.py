@@ -17,7 +17,7 @@ from sklearn.model_selection import learning_curve
 # DESIGN implement changes to the standard streamlit UI/UX
 st.set_page_config(
     page_title="Diabetes Prediction",
-    #page_icon="images/logo_news.png",
+    page_icon="logo_medical.png",
 )
 
 
