@@ -14,6 +14,28 @@ from xgboost import XGBClassifier
 from sklearn.model_selection import learning_curve
 
 
+# DESIGN implement changes to the standard streamlit UI/UX
+st.set_page_config(
+    page_title="Diabetes Prediction",
+    #page_icon="images/logo_news.png",
+)
+
+
+# Design change spinner color to primary color
+st.markdown(
+    """<style>.stSpinner > div > div {border-top-color: #9d03fc;}</style>""",
+    unsafe_allow_html=True,
+)
+
+# Design hide "made with streamlit" footer menu area
+hide_streamlit_footer = """<style>#MainMenu {visibility: hidden;}
+                        footer {visibility: hidden;}</style>"""
+
+st.markdown(hide_streamlit_footer, unsafe_allow_html=True)
+
+
+
+
 # Load and preprocess your dataset
 def load_data(filename):
     original_data = pd.read_csv(filename, sep=",")
