@@ -1,9 +1,20 @@
-## 0. Objective:
+
+
+
+
+## 0. Objective:!
+
 
 In this project we are going to develop a model to predict if a person is diabetic or not, based on attributes of Pima-Indians diabetes data from UCI repository. Since, our target is a binary decision (Yes or No), we are going to use supervised classification algorithms.
 Based on online studies and papers, we are targeting to achieve 75+ % or above model classification accuracy (https://www.ijedr.org/papers/IJEDR1703069.pdf)  with minimum false negative (High Recall) of the model. 
 
 Minimum False Negative:  So that we should not miss any patient with a diabetic. For this classification we can tolerate some false positive(Patients misclassified as diabetic). If we mis-classify a non-diabetic person as a diabetic then he/she will go for further testing where they will get to know that they are non-diabetic.
+
+**App**
+
+App link: https://classification-using-ml.streamlit.app/ 
+
+![3](https://github.com/kwankhede/Diabetes_Prediction/blob/app/app.png)
 
 **Data source:** 
 
@@ -34,6 +45,8 @@ Minimum False Negative:  So that we should not miss any patient with a diabetic.
 **Visualizations**
 ![1](https://github.com/kwankhede/Diabetes_Prediction/blob/master/1.png)
 ![2](https://github.com/kwankhede/Diabetes_Prediction/blob/master/2.png)
+
+
 
 
 
